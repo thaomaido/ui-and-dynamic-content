@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body {
+    background-image: url('../img/wood.jpg');
+    color:white;
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+#bag {
+    width: 60%;
+}
+
+#icon01 {
+    max-width: 20px;
+}
+#icon02 {
+    max-width: 20px;
+}
+#icon03 {
+    max-width: 20px;
+}
+
+button {
+    color:brown;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}
+
+
+#grocery-input input[type=text] {
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+#input-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#input-list input[type=text] {
+    grid-column: span 2;
+    min-width: 100%;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+#input-list button[type=button] {
+    grid-column: span 2;
+    padding: 1rem 0;
+    min-width: 100%;
+    margin-top: 1rem;
+    background-color: rgb(253, 239, 171);
+}
+
+h1 {
+    font-size: 3rem;
+  }
+
+h2 {
+    font-size: 1.5rem;
+  }
+
+
+  /* Tablets and Desktop Screens */
+@media only screen and (min-width: 35rem) {
+h1 {
+    font-size: 4rem;
+  }
+
+h2 {
+    font-size: 2rem;
+}
+
+
+#bag {
+    width: 60%;
+}
+#input-list input[type=text] {
+    grid-column: span 2;
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 1.5em 0;
+}
+
+#input-list button[type=button] {
+    grid-column: span 2;
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 1.5rem 0;
+    background-color: rgb(253, 239, 171);
+}
+#icon01 {
+    max-width: 30px;
+}
+#icon02 {
+    max-width: 30px;
+}
+#icon03 {
+    max-width: 30px;
+}
+
+}
